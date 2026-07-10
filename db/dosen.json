@@ -1,0 +1,7 @@
+[
+  { "id": "1", "nidn": "0012345678", "nama": "Slamet", "name": "Slamet", "prodi": "Teknik Informatika", "max_sks": 12 },
+  { "id": "2", "nidn": "0023456789", "nama": "Tini", "name": "Tini", "prodi": "Sistem Informasi", "max_sks": 10 },
+  { "id": "3", "nidn": "0034567890", "nama": "Udin", "name": "Udin", "prodi": "Teknik Informatika", "max_sks": 14 },
+  { "id": "4", "nidn": "0045678901", "nama": "Vina", "name": "Vina", "prodi": "Teknik Informatika", "max_sks": 16 },
+  { "id": "5", "nidn": "0056789012", "nama": "Wawan", "name": "Wawan", "prodi": "Sistem Informasi", "max_sks": 8 }
+]

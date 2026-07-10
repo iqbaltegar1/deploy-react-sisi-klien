@@ -1,0 +1,12 @@
+[
+  { "id": "1", "kode": "A11.44201", "nama": "Algoritma dan Pemrograman", "name": "Algoritma dan Pemrograman", "sks": 3, "semester": 1 },
+  { "id": "2", "kode": "A11.44202", "nama": "Basis Data", "name": "Basis Data", "sks": 3, "semester": 2 },
+  { "id": "3", "kode": "A11.44203", "nama": "Jaringan Komputer", "name": "Jaringan Komputer", "sks": 2, "semester": 3 },
+  { "id": "4", "kode": "A11.44204", "nama": "Pemrograman Sisi Klien", "name": "Pemrograman Sisi Klien", "sks": 3, "semester": 4 },
+  { "id": "5", "kode": "A11.44205", "nama": "Pemrograman Sisi Server", "name": "Pemrograman Sisi Server", "sks": 3, "semester": 5 },
+  { "id": "6", "kode": "A11.44206", "nama": "Rekayasa Perangkat Lunak", "name": "Rekayasa Perangkat Lunak", "sks": 4, "semester": 4 },
+  { "id": "7", "kode": "A11.44207", "nama": "Interaksi Manusia dan Komputer", "name": "Interaksi Manusia dan Komputer", "sks": 2, "semester": 2 },
+  { "id": "8", "kode": "A11.44208", "nama": "Kecerdasan Buatan", "name": "Kecerdasan Buatan", "sks": 3, "semester": 5 },
+  { "id": "9", "kode": "A11.44209", "nama": "Sistem Operasi", "name": "Sistem Operasi", "sks": 3, "semester": 3 },
+  { "id": "10", "kode": "A11.44210", "nama": "Struktur Data", "name": "Struktur Data", "sks": 3, "semester": 2 }
+]

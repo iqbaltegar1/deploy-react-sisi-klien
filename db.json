@@ -1,0 +1,546 @@
+{
+  "chart": {
+    "students": [
+      {
+        "id": 1,
+        "faculty": "Teknik",
+        "count": 320
+      },
+      {
+        "id": 2,
+        "faculty": "Ekonomi",
+        "count": 210
+      },
+      {
+        "id": 3,
+        "faculty": "Kedokteran",
+        "count": 150
+      },
+      {
+        "id": 4,
+        "faculty": "Hukum",
+        "count": 180
+      },
+      {
+        "id": 5,
+        "faculty": "Ilmu Komputer",
+        "count": 260
+      }
+    ],
+    "genderRatio": [
+      {
+        "id": 1,
+        "gender": "Laki-laki",
+        "count": 600
+      },
+      {
+        "id": 2,
+        "gender": "Perempuan",
+        "count": 700
+      }
+    ],
+    "registrations": [
+      {
+        "id": 1,
+        "year": 2020,
+        "total": 500
+      },
+      {
+        "id": 2,
+        "year": 2021,
+        "total": 580
+      },
+      {
+        "id": 3,
+        "year": 2022,
+        "total": 640
+      },
+      {
+        "id": 4,
+        "year": 2023,
+        "total": 710
+      }
+    ],
+    "gradeDistribution": [
+      {
+        "subject": "TI",
+        "A": 120,
+        "B": 80,
+        "C": 40
+      },
+      {
+        "subject": "SI",
+        "A": 100,
+        "B": 90,
+        "C": 50
+      },
+      {
+        "subject": "MI",
+        "A": 110,
+        "B": 85,
+        "C": 30
+      }
+    ],
+    "lecturerRanks": [
+      {
+        "rank": "Asisten Ahli",
+        "count": 30
+      },
+      {
+        "rank": "Lektor",
+        "count": 50
+      },
+      {
+        "rank": "Lektor Kepala",
+        "count": 40
+      },
+      {
+        "rank": "Guru Besar",
+        "count": 10
+      }
+    ]
+  },
+  "dosen": [
+    {
+      "id": "1",
+      "nidn": "0012345678",
+      "nama": "Slamet",
+      "name": "Slamet",
+      "prodi": "Teknik Informatika",
+      "max_sks": 12
+    },
+    {
+      "id": "2",
+      "nidn": "0023456789",
+      "nama": "Tini",
+      "name": "Tini",
+      "prodi": "Sistem Informasi",
+      "max_sks": 10
+    },
+    {
+      "id": "3",
+      "nidn": "0034567890",
+      "nama": "Udin",
+      "name": "Udin",
+      "prodi": "Teknik Informatika",
+      "max_sks": 14
+    },
+    {
+      "id": "4",
+      "nidn": "0045678901",
+      "nama": "Vina",
+      "name": "Vina",
+      "prodi": "Teknik Informatika",
+      "max_sks": 16
+    },
+    {
+      "id": "5",
+      "nidn": "0056789012",
+      "nama": "Wawan",
+      "name": "Wawan",
+      "prodi": "Sistem Informasi",
+      "max_sks": 8
+    }
+  ],
+  "kelas": [
+    {
+      "id": "1",
+      "mata_kuliah_id": "1",
+      "dosen_id": "1",
+      "mahasiswa_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "12"
+      ]
+    },
+    {
+      "mata_kuliah_id": "3",
+      "dosen_id": "5",
+      "mahasiswa_ids": [
+        "10",
+        "12"
+      ],
+      "id": "VL-zP46"
+    },
+    {
+      "mata_kuliah_id": "8",
+      "dosen_id": "4",
+      "mahasiswa_ids": [
+        "13",
+        "12"
+      ],
+      "id": "iX4kQrX"
+    },
+    {
+      "mata_kuliah_id": "5",
+      "dosen_id": "4",
+      "mahasiswa_ids": [
+        "12"
+      ],
+      "id": "wDJyYhX"
+    },
+    {
+      "mata_kuliah_id": "10",
+      "dosen_id": "1",
+      "mahasiswa_ids": [
+        "12"
+      ],
+      "id": "CUiX-dP"
+    },
+    {
+      "mata_kuliah_id": "9",
+      "dosen_id": "5",
+      "mahasiswa_ids": [
+        "12"
+      ],
+      "id": "c8E7RjZ"
+    },
+    {
+      "mata_kuliah_id": "6",
+      "dosen_id": "5",
+      "mahasiswa_ids": [],
+      "id": "kItFHlH"
+    }
+  ],
+  "mahasiswa": [
+    {
+      "id": "1",
+      "nama": "Andi",
+      "name": "Andi",
+      "nim": "M001",
+      "max_sks": 18
+    },
+    {
+      "id": "2",
+      "nama": "Budi",
+      "name": "Budi",
+      "nim": "M002",
+      "max_sks": 20
+    },
+    {
+      "id": "3",
+      "nama": "Citra",
+      "name": "Citra",
+      "nim": "M003",
+      "max_sks": 22
+    },
+    {
+      "id": "4",
+      "nama": "Dina",
+      "name": "Dina",
+      "nim": "M004",
+      "max_sks": 18
+    },
+    {
+      "id": "5",
+      "nama": "Eko",
+      "name": "Eko",
+      "nim": "M005",
+      "max_sks": 24
+    },
+    {
+      "id": "6",
+      "nama": "Fajar",
+      "name": "Fajar",
+      "nim": "M006",
+      "max_sks": 21
+    },
+    {
+      "id": "7",
+      "nama": "Gita",
+      "name": "Gita",
+      "nim": "M007",
+      "max_sks": 20
+    },
+    {
+      "id": "8",
+      "nama": "Hani",
+      "name": "Hani",
+      "nim": "M008",
+      "max_sks": 18
+    },
+    {
+      "id": "9",
+      "nama": "Iwan",
+      "name": "Iwan",
+      "nim": "M009",
+      "max_sks": 20
+    },
+    {
+      "id": "10",
+      "nama": "Joko",
+      "name": "Joko",
+      "nim": "M010",
+      "max_sks": 18
+    },
+    {
+      "id": "11",
+      "nama": "Kiki",
+      "name": "Kiki",
+      "nim": "M011",
+      "max_sks": 24
+    },
+    {
+      "id": "12",
+      "nama": "Lia",
+      "name": "Lia",
+      "nim": "M012",
+      "max_sks": 20
+    },
+    {
+      "id": "13",
+      "nama": "Maya",
+      "name": "Maya",
+      "nim": "M013",
+      "max_sks": 18
+    },
+    {
+      "id": "14",
+      "nama": "Nina",
+      "name": "Nina",
+      "nim": "M014",
+      "max_sks": 22
+    },
+    {
+      "id": "15",
+      "nama": "Oki",
+      "name": "Oki",
+      "nim": "M015",
+      "max_sks": 20
+    },
+    {
+      "id": "16",
+      "nama": "Putri",
+      "name": "Putri",
+      "nim": "M016",
+      "max_sks": 18
+    },
+    {
+      "id": "17",
+      "nama": "Qila",
+      "name": "Qila",
+      "nim": "M017",
+      "max_sks": 18
+    },
+    {
+      "id": "18",
+      "nama": "Rudi",
+      "name": "Rudi",
+      "nim": "M018",
+      "max_sks": 21
+    },
+    {
+      "id": "19",
+      "nama": "Salsa",
+      "name": "Salsa",
+      "nim": "M019",
+      "max_sks": 18
+    },
+    {
+      "id": "20",
+      "nama": "Tino",
+      "name": "Tino",
+      "nim": "M020",
+      "max_sks": 18
+    }
+  ],
+  "matakuliah": [
+    {
+      "id": "1",
+      "kode": "A11.44201",
+      "nama": "Algoritma dan Pemrograman",
+      "name": "Algoritma dan Pemrograman",
+      "sks": 3,
+      "semester": 1
+    },
+    {
+      "id": "2",
+      "kode": "A11.44202",
+      "nama": "Basis Data",
+      "name": "Basis Data",
+      "sks": 3,
+      "semester": 2
+    },
+    {
+      "id": "3",
+      "kode": "A11.44203",
+      "nama": "Jaringan Komputer",
+      "name": "Jaringan Komputer",
+      "sks": 2,
+      "semester": 3
+    },
+    {
+      "id": "4",
+      "kode": "A11.44204",
+      "nama": "Pemrograman Sisi Klien",
+      "name": "Pemrograman Sisi Klien",
+      "sks": 3,
+      "semester": 4
+    },
+    {
+      "id": "5",
+      "kode": "A11.44205",
+      "nama": "Pemrograman Sisi Server",
+      "name": "Pemrograman Sisi Server",
+      "sks": 3,
+      "semester": 5
+    },
+    {
+      "id": "6",
+      "kode": "A11.44206",
+      "nama": "Rekayasa Perangkat Lunak",
+      "name": "Rekayasa Perangkat Lunak",
+      "sks": 4,
+      "semester": 4
+    },
+    {
+      "id": "7",
+      "kode": "A11.44207",
+      "nama": "Interaksi Manusia dan Komputer",
+      "name": "Interaksi Manusia dan Komputer",
+      "sks": 2,
+      "semester": 2
+    },
+    {
+      "id": "8",
+      "kode": "A11.44208",
+      "nama": "Kecerdasan Buatan",
+      "name": "Kecerdasan Buatan",
+      "sks": 3,
+      "semester": 5
+    },
+    {
+      "id": "9",
+      "kode": "A11.44209",
+      "nama": "Sistem Operasi",
+      "name": "Sistem Operasi",
+      "sks": 3,
+      "semester": 3
+    },
+    {
+      "id": "10",
+      "kode": "A11.44210",
+      "nama": "Struktur Data",
+      "name": "Struktur Data",
+      "sks": 3,
+      "semester": 2
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Admin 1",
+      "email": "admin@mail.com",
+      "password": "admin123",
+      "role": "admin",
+      "permission": [
+        "dashboard.page",
+        "mahasiswa.page",
+        "mahasiswa.read",
+        "mahasiswa.create",
+        "mahasiswa.update",
+        "mahasiswa.delete",
+        "dosen.page",
+        "dosen.read",
+        "dosen.create",
+        "dosen.update",
+        "dosen.delete",
+        "matakuliah.page",
+        "matakuliah.read",
+        "matakuliah.create",
+        "matakuliah.update",
+        "matakuliah.delete",
+        "user.page",
+        "user.read",
+        "user.update",
+        "rencana-studi.page",
+        "rencana-studi.read",
+        "rencana-studi.create",
+        "rencana-studi.update",
+        "rencana-studi.delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mahasiswa 1",
+      "email": "mahasiswa@mail.com",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "permission": [
+        "krs.page",
+        "krs.read"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dosen Wijaya",
+      "email": "wijaya@mail.com",
+      "password": "dosen123",
+      "role": "dosen",
+      "permission": [
+        "dashboard.page",
+        "mahasiswa.read",
+        "dosen.read",
+        "matakuliah.read"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Budi Santoso",
+      "email": "budi@mail.com",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "permission": [
+        "krs.page",
+        "krs.read"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Chandra Kirana",
+      "email": "chandra@mail.com",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "permission": [
+        "krs.page",
+        "krs.read"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Dewi Sartika",
+      "email": "dewi@mail.com",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "permission": [
+        "krs.page",
+        "krs.read"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Eko Susilo",
+      "email": "eko@mail.com",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "permission": [
+        "krs.page",
+        "krs.read"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Farida Utami",
+      "email": "farida@mail.com",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "permission": [
+        "krs.page",
+        "krs.read"
+      ]
+    }
+  ]
+}

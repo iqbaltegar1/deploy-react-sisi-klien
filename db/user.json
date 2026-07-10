@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "name": "Admin 1",
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "role": "admin",
+    "permission": [
+      "dashboard.page",
+      "mahasiswa.page",
+      "mahasiswa.read",
+      "mahasiswa.create",
+      "mahasiswa.update",
+      "mahasiswa.delete",
+      "dosen.page",
+      "dosen.read",
+      "dosen.create",
+      "dosen.update",
+      "dosen.delete",
+      "matakuliah.page",
+      "matakuliah.read",
+      "matakuliah.create",
+      "matakuliah.update",
+      "matakuliah.delete",
+      "user.page",
+      "user.read",
+      "user.update",
+      "rencana-studi.page",
+      "rencana-studi.read",
+      "rencana-studi.create",
+      "rencana-studi.update",
+      "rencana-studi.delete"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Mahasiswa 1",
+    "email": "mahasiswa@mail.com",
+    "password": "mahasiswa123",
+    "role": "mahasiswa",
+    "permission": [
+      "krs.page",
+      "krs.read"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Dosen Wijaya",
+    "email": "wijaya@mail.com",
+    "password": "dosen123",
+    "role": "dosen",
+    "permission": [
+      "dashboard.page",
+      "mahasiswa.read",
+      "dosen.read",
+      "matakuliah.read"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Budi Santoso",
+    "email": "budi@mail.com",
+    "password": "mahasiswa123",
+    "role": "mahasiswa",
+    "permission": [
+      "krs.page",
+      "krs.read"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Chandra Kirana",
+    "email": "chandra@mail.com",
+    "password": "mahasiswa123",
+    "role": "mahasiswa",
+    "permission": [
+      "krs.page",
+      "krs.read"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Dewi Sartika",
+    "email": "dewi@mail.com",
+    "password": "mahasiswa123",
+    "role": "mahasiswa",
+    "permission": [
+      "krs.page",
+      "krs.read"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Eko Susilo",
+    "email": "eko@mail.com",
+    "password": "mahasiswa123",
+    "role": "mahasiswa",
+    "permission": [
+      "krs.page",
+      "krs.read"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Farida Utami",
+    "email": "farida@mail.com",
+    "password": "mahasiswa123",
+    "role": "mahasiswa",
+    "permission": [
+      "krs.page",
+      "krs.read"
+    ]
+  }
+]
